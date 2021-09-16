@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: DressHubConsumer
+Bundle-SymbolicName: DressHubConsumer
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: dresshubconsumer.Activator
+Bundle-RequiredExecutionEnvironment: JavaSE-13
+Automatic-Module-Name: DressHubConsumer
+Import-Package: dresshub,
+ org.osgi.framework;version="1.3.0",
+ org.osgi.util.tracker;version="1.5.2"
+Bundle-ActivationPolicy: lazy
